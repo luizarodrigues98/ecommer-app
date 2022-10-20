@@ -12,4 +12,13 @@ describe "Usuário visita tela inicial" do
     expect(page).to have_content 'Aeroporto SP' 
     expect(page).to have_content 'Fortaleza' 
   end
+
+  it 'e não existem galpões' do
+    fake_response = double("faraday_response", status: 200, body: "[]")
+    allow(Faraday).to receive(:get).with('http://localhost:4000/api/v1/warehouses').and_return(fake_response)
+
+    visit root_path
+
+    expect(page).to have_content 'Nenhum galpão encontrado'
+  end
 end
