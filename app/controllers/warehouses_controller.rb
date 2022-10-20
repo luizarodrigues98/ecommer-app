@@ -1,6 +1,7 @@
 class WarehousesController < ApplicationController
 
   def index
-    @warehouse = []
+    response = Faraday.get('http://localhost:4000/api/v1/warehouses')
+    @warehouses = JSON.parse(response.body)
   end
 end
