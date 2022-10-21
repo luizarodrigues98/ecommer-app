@@ -4,9 +4,9 @@
 <%else%>
   <% @warehouses.each do |warehouse| %>
   <ul>
-      <li><%= link_to warehouse["name"], warehouse_path(warehouse["id"]) %></li>
-      <p><%= warehouse["code"] %></p>
-      <p><%= warehouse["city"] %></p>
+      <li><%= link_to warehouse.name, warehouse_path(warehouse.id) %></li>
+      <p><%= warehouse.code %></p>
+      <p><%= warehouse.city %></p>
     </li
   <% end %>
 <% end %>

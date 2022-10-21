@@ -1,6 +1,6 @@
 [
   {
-  "id":5,
+  "id":1,
   "name":"Aeroporto SP",
   "code":"GRU",
   "city":"Guarulhos",
@@ -12,7 +12,7 @@
   "description":"Galpão destinado para cargas internacionais"},
   
   {
-  "id":4,
+  "id":2,
   "name":"Fortaleza",
   "code":"FTZ",
   "city":"Fortaleza",
@@ -21,29 +21,5 @@
   "updated_at":"2022-09-15T16:26:20.777Z",
   "address":"Av do Museo, 999",
   "cep":"60430650",
-  "description":"Galpão de fortaleza"},
-
-  {
-  "id":1,
-  "name":"Rio",
-  "code":"SDU",
-  "city":"Rio de Janeiro",
-  "area":60000,
-  "created_at":"2022-09-14T15:52:57.572Z",
-  "updated_at":"2022-09-19T16:26:11.696Z",
-  "address":"Av. Atlantica, 100",
-  "cep":"123456",
-  "description":"Destinado para ecommerce"},
-  
-  {
-  "id":3,
-  "name":"São P",
-  "code":"SP1",
-  "city":"São Paulo",
-  "area":2000,
-  "created_at":"2022-09-15T14:18:20.162Z",
-  "updated_at":"2022-09-15T14:18:20.162Z",
-  "address":"AV do rio tiete, 1000",
-  "cep":"0500000",
-  "description":"Galpão do rio tietê"}
+  "description":"Galpão de fortaleza"}
 ]
