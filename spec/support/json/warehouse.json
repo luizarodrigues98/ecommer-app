@@ -1,0 +1,13 @@
+{
+"id":5,
+"name":"Aeroporto SP",
+"code":"GRU",
+"city":"Guarulhos",
+"area":100000,
+"created_at":"2022-10-20T14:57:58.307Z",
+"updated_at":"2022-10-20T14:57:58.307Z",
+"address":"Avenida do Aeroporto, 1000",
+"cep":"15000-000",
+"description":"Galpão destinado para cargas internacionais"
+}
+  
